@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Under the streetlamp</title>
+		<link rel="stylesheet" href="streetlamp.css">
+	</head>
+
+	<body>
+		<div id="cover"></div>
+		<div id="main">
+			<h1>Main page</h1>
+			<br>
+			<p><a href="/about">The hum of the city is enough to keep you awake</a>. You pick a story and begin to read...</p>
+			<ul>
+				<li><a href="/nightjogger">Night jogger</a></li>
+				<br>
+				<li><a href="/911">911, what's your emergency?</a></li>
+			</ul>
+			<br>
+			<svg viewbox="0 0 130 10" width="100%">
+				<defs>
+					<mask id="mask" x="0" y="0" width="80" height="30">
+						<circle cx="50%" cy="50%" transform="translate(5, 0)" r="3" fill="white"/>
+						<circle cx="50%" cy="50%" transform="translate(3, -1)" r="3" fill="black"/>
+					</mask>
+				</defs>
+				<rect x="50%" y="0" width="10" height="10" mask="url(#mask)" fill="white" transform="translate(-10, 0)"/>    
+			</svg>
+		</div>
+		<div id="footer"><p>Special thanks to Vecteezy for providing the cover art. <a target="_blank" href="https://www.vecteezy.com/free-vector/html">HTML Vectors by Vecteezy</a></p></div>
+	</body>
+</html>
